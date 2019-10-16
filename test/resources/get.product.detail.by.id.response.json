@@ -1,0 +1,330 @@
+{
+  "id": "MLA662503052",
+  "site_id": "MLA",
+  "title": "Cachorros Golden Retriever Maxima Pureza + Kit De Bienvenida",
+  "subtitle": null,
+  "seller_id": 205749461,
+  "category_id": "MLA1073",
+  "official_store_id": null,
+  "price": 15999,
+  "base_price": 15999,
+  "original_price": null,
+  "currency_id": "ARS",
+  "initial_quantity": 999,
+  "available_quantity": 500,
+  "sold_quantity": 150,
+  "sale_terms": [],
+  "buying_mode": "buy_it_now",
+  "listing_type_id": "gold_special",
+  "start_time": "2017-04-17T02:57:49.000Z",
+  "stop_time": "2037-04-12T02:57:49.000Z",
+  "condition": "new",
+  "permalink": "https://articulo.mercadolibre.com.ar/MLA-662503052-cachorros-golden-retriever-maxima-pureza-kit-de-bienvenida-_JM",
+  "thumbnail": "http://mla-s1-p.mlstatic.com/702622-MLA25627077107_052017-I.jpg",
+  "secure_thumbnail": "https://mla-s1-p.mlstatic.com/702622-MLA25627077107_052017-I.jpg",
+  "pictures": [
+    {
+      "id": "702622-MLA25627077107_052017",
+      "url": "http://mla-s1-p.mlstatic.com/702622-MLA25627077107_052017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/702622-MLA25627077107_052017-O.jpg",
+      "size": "500x500",
+      "max_size": "640x640",
+      "quality": ""
+    },
+    {
+      "id": "909406-MLA25627077159_052017",
+      "url": "http://mla-s1-p.mlstatic.com/909406-MLA25627077159_052017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/909406-MLA25627077159_052017-O.jpg",
+      "size": "500x373",
+      "max_size": "630x470",
+      "quality": ""
+    },
+    {
+      "id": "767502-MLA25627079530_052017",
+      "url": "http://mla-s1-p.mlstatic.com/767502-MLA25627079530_052017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/767502-MLA25627079530_052017-O.jpg",
+      "size": "500x266",
+      "max_size": "620x330",
+      "quality": ""
+    },
+    {
+      "id": "821402-MLA25627077331_052017",
+      "url": "http://mla-s1-p.mlstatic.com/821402-MLA25627077331_052017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/821402-MLA25627077331_052017-O.jpg",
+      "size": "500x276",
+      "max_size": "650x360",
+      "quality": ""
+    },
+    {
+      "id": "814106-MLA25833849968_082017",
+      "url": "http://mla-s1-p.mlstatic.com/814106-MLA25833849968_082017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/814106-MLA25833849968_082017-O.jpg",
+      "size": "500x283",
+      "max_size": "1200x681",
+      "quality": ""
+    },
+    {
+      "id": "955687-MLA25833845929_082017",
+      "url": "http://mla-s1-p.mlstatic.com/955687-MLA25833845929_082017-O.jpg",
+      "secure_url": "https://mla-s1-p.mlstatic.com/955687-MLA25833845929_082017-O.jpg",
+      "size": "500x281",
+      "max_size": "1200x675",
+      "quality": ""
+    }
+  ],
+  "video_id": null,
+  "descriptions": [
+    {
+      "id": "MLA662503052-1323431772"
+    }
+  ],
+  "accepts_mercadopago": true,
+  "non_mercado_pago_payment_methods": [],
+  "shipping": {
+    "mode": "not_specified",
+    "methods": [],
+    "tags": [],
+    "dimensions": null,
+    "local_pick_up": false,
+    "free_shipping": false,
+    "logistic_type": "not_specified",
+    "store_pick_up": false
+  },
+  "international_delivery_mode": "none",
+  "seller_address": {
+    "city": {
+      "id": "TUxBQ0xBUGxhdGE",
+      "name": "La Plata"
+    },
+    "state": {
+      "id": "AR-B",
+      "name": "Buenos Aires"
+    },
+    "country": {
+      "id": "AR",
+      "name": "Argentina"
+    },
+    "search_location": {
+      "city": {
+        "id": "TUxBQ0xBUGxhdGE",
+        "name": "La Plata"
+      },
+      "state": {
+        "id": "TUxBUEdSQXJlMDNm",
+        "name": "Bs.As. G.B.A. Sur"
+      }
+    },
+    "latitude": -34.614017,
+    "longitude": -58.42568,
+    "id": 180486464
+  },
+  "seller_contact": null,
+  "location": {},
+  "geolocation": {
+    "latitude": -34.614017,
+    "longitude": -58.42568
+  },
+  "coverage_areas": [],
+  "attributes": [
+    {
+      "id": "CLASS",
+      "name": "Clase",
+      "value_id": null,
+      "value_name": "Mammalia",
+      "value_struct": null,
+      "values": [
+        {
+          "id": null,
+          "name": "Mammalia",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "",
+      "attribute_group_name": ""
+    },
+    {
+      "id": "AGE",
+      "name": "Edad",
+      "value_id": null,
+      "value_name": "45 días",
+      "value_struct": {
+        "number": 45,
+        "unit": "días"
+      },
+      "values": [
+        {
+          "id": null,
+          "name": "45 días",
+          "struct": {
+            "number": 45,
+            "unit": "días"
+          }
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ANIMAL_GENDER",
+      "name": "Género del animal",
+      "value_id": "3896960",
+      "value_name": "Macho",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "3896960",
+          "name": "Macho",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ANIMAL_LIFE_SPAN",
+      "name": "Esperanza de vida",
+      "value_id": "1020540",
+      "value_name": "12 años",
+      "value_struct": {
+        "number": 12,
+        "unit": "años"
+      },
+      "values": [
+        {
+          "id": "1020540",
+          "name": "12 años",
+          "struct": {
+            "number": 12,
+            "unit": "años"
+          }
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "BREED",
+      "name": "Raza",
+      "value_id": "2227127",
+      "value_name": "Golden Retriever",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2227127",
+          "name": "Golden Retriever",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "COAT_LENGTH",
+      "name": "Largo del pelaje",
+      "value_id": "2307589",
+      "value_name": "Largo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2307589",
+          "name": "Largo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "DEWORMED",
+      "name": "Desparasitado",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "ITEM_CONDITION",
+      "name": "Condición del ítem",
+      "value_id": "2230284",
+      "value_name": "Nuevo",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "2230284",
+          "name": "Nuevo",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "WEIGHT",
+      "name": "Peso",
+      "value_id": "1020552",
+      "value_name": "34 kg",
+      "value_struct": {
+        "number": 34,
+        "unit": "kg"
+      },
+      "values": [
+        {
+          "id": "1020552",
+          "name": "34 kg",
+          "struct": {
+            "number": 34,
+            "unit": "kg"
+          }
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    },
+    {
+      "id": "WITH_FCI_RATING",
+      "name": "Con clasificación FCI",
+      "value_id": "242085",
+      "value_name": "Sí",
+      "value_struct": null,
+      "values": [
+        {
+          "id": "242085",
+          "name": "Sí",
+          "struct": null
+        }
+      ],
+      "attribute_group_id": "OTHERS",
+      "attribute_group_name": "Otros"
+    }
+  ],
+  "warnings": [],
+  "listing_source": "",
+  "variations": [],
+  "status": "active",
+  "sub_status": [],
+  "tags": [
+    "good_quality_picture",
+    "good_quality_thumbnail",
+    "loyalty_discount_eligible",
+    "immediate_payment"
+  ],
+  "warranty": "La mejor garantía que puede haber es comprarle a un vendedor con medalla de MERCADOLIDER e intachable reputación, TODOS nuestros clientes y amigos están felices con sus cachorros, eso habla claramente de la seriedad con la que trabajamos.",
+  "catalog_product_id": "MLA6417366",
+  "domain_id": "MLA-PUREBRED_DOGS",
+  "parent_item_id": null,
+  "differential_pricing": null,
+  "deal_ids": [],
+  "automatic_relist": false,
+  "date_created": "2017-04-17T02:57:49.000Z",
+  "last_updated": "2019-10-16T16:58:21.000Z",
+  "health": 0.75,
+  "catalog_listing": false
+}

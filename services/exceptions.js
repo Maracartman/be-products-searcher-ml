@@ -1,3 +1,7 @@
+/**
+ * @description Construct a default config whenever the config is not coming.
+ * @param {Object} config
+ */
 const constructConfigurations = config => ({
   status: config.status || 500,
   cause: config.cause || 'An unexpected error has occured',
@@ -6,6 +10,11 @@ const constructConfigurations = config => ({
   }
 });
 
+/**
+ * @description handle the response constructing, logging and responsing.
+ * @param {Object} res the response to be fallback.
+ * @param {Object} responseConfigurations the configurations.
+ */
 const handleException = (res, responseConfigurations) => {
   const enhancedConfigurations = constructConfigurations(
     responseConfigurations

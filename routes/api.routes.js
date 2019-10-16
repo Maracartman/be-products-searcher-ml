@@ -7,8 +7,8 @@ const handleException = require('../services/exceptions');
  * Route definition for specific item ID searching
  */
 app.get('/items/:id', (req, res) => {
-  console.log(`Requesting information of item with id: ${id}`);
-  res.status(200).send(`Called to get item with id ${req.params.id}`);
+  console.log(`Requesting information of item with id: ${req.params.id}`);
+  productsService.getProductInformation(req, res);
 });
 
 /**
@@ -22,7 +22,7 @@ app.get('/items', async (req, res, next) => {
         req.query.q ? req.query.q : ''
       }`
     );
-    productsService.getAllProducts(req,res);
+    productsService.getAllProducts(req, res);
   } else {
     handleException(res, {
       status: 400,

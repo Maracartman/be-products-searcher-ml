@@ -1,12 +1,23 @@
 const {
   getByQuery,
   getById,
+  getDescriptionById,
   getCategoryTreeInformation
 } = require('../clients/mercadolibre.api.client');
 const handleException = require('../services/exceptions');
 const {
-  mapQuerySearchResponseToApiResponse
+  mapQuerySearchResultToProductsResponse,
+  mapProductInformationToProductResponse
 } = require('../mappers/outgoing.mercadolibre.data');
+const {
+  author: { name, lastname }
+} = require('../package.json');
+
+/**
+ *
+ * @param {Object} req the incoming request.
+ * @param {Object} res the outcoming response.
+ */
 const getAllProducts = async (req, res) => {
   try {
     const querySearchResultData = await getByQuery(req.query.q);
@@ -20,9 +31,10 @@ const getAllProducts = async (req, res) => {
       const arrayCategories = await getCategoryTreeInformation(
         querySearchResultData.results[0].category_id
       );
-      const outGoingProductsResponse = mapQuerySearchResponseToApiResponse(
+      const outGoingProductsResponse = mapQuerySearchResultToProductsResponse(
         querySearchResultData,
-        arrayCategories
+        arrayCategories,
+        { name, lastname }
       );
       res.write(JSON.stringify(outGoingProductsResponse));
       res.end();
@@ -40,6 +52,37 @@ const getAllProducts = async (req, res) => {
   }
 };
 
+/**
+ *
+ * @param {Object} req the incoming request.
+ * @param {Object} res the outcoming response.
+ */
+const getProductInformation = async (req, res) => {
+  if (req.params.id) {
+    try {
+      const productInfo = await getById(req.params.id);
+      const productDescription = await getDescriptionById(req.params.id);
+      const productResponse = await mapProductInformationToProductResponse(
+        productInfo,
+        productDescription,
+        { name, lastname }
+      );
+
+      res.writeHead(200, {
+        'Content-Type': 'application/json'
+      });
+      res.write(JSON.stringify(productResponse));
+      res.end();
+    } catch (e) {
+      handleException(res, {
+        status: 500,
+        cause: `Internal server error.`
+      });
+    }
+  }
+};
+
 module.exports = {
-  getAllProducts: getAllProducts
+  getAllProducts: getAllProducts,
+  getProductInformation: getProductInformation
 };
