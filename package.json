@@ -1,0 +1,27 @@
+{
+  "name": "be-products-searcher-ml",
+  "version": "1.0.0-beta.0",
+  "author": {
+    "name": "Luis",
+    "lastname": "Maracara",
+    "email": "luigi.maracara@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "*",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "nodemon": "1.18.3"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node app.js",
+    "test": "nyc --check-coverage --lines 90 mocha",
+    "test:report": "nyc --reporter=html mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
+}
