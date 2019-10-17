@@ -21,7 +21,11 @@ const mapQuerySearchResultToProductsResponse = (
     mlResponse.results.slice(0, maxNumberOfResults).map(result => ({
       id: result.id,
       title: result.title.trim(),
-      price: { price: result.price, currency: result.currency_id, decimals: 0 },
+      price: {
+        amount: result.price,
+        currency: result.currency_id,
+        decimals: 0
+      },
       picture: result.thumbnail,
       condition: result.condition,
       free_shipping: result.shipping['free_shipping']
@@ -31,7 +35,7 @@ const mapQuerySearchResultToProductsResponse = (
 };
 
 /**
- * 
+ *
  * @param {Object} productInfo The Mercado Libre incoming product information.
  * @param {String} productDescription The current product description.
  * @param {Object} author The service author.
