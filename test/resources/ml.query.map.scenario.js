@@ -1159,56 +1159,90 @@ const queryResultVOutGoingMapScenarios = [
           id: 'MLA662503052',
           title: 'Cachorros Golden Retriever Maxima Pureza + Kit De Bienvenida',
           price: {
-            price: 15999,
+            amount: 15999,
             currency: 'ARS',
-            decimals: 0
+            currency_symbol: '$',
+            decimals: 2
           },
           picture:
             'http://mla-s1-p.mlstatic.com/702622-MLA25627077107_052017-I.jpg',
-          condition: 'new',
-          free_shipping: false
+          condition: 'Nuevo',
+          free_shipping: false,
+          seller_city: 'La Plata'
         },
         {
           id: 'MLA739314570',
           title: 'Cachorros Beagle Tricolor!',
           price: {
-            price: 25999,
+            amount: 25999,
             currency: 'ARS',
-            decimals: 0
+            currency_symbol: '$',
+            decimals: 2
           },
           picture:
             'http://mla-s1-p.mlstatic.com/883036-MLA27837356336_072018-I.jpg',
-          condition: 'used',
-          free_shipping: false
+          condition: 'Usado',
+          free_shipping: false,
+          seller_city: 'Hurlingham'
         },
         {
           id: 'MLA750547415',
           title: 'Cachorros Bulldog Ingles!!',
           price: {
-            price: 47999,
+            amount: 47999,
             currency: 'ARS',
-            decimals: 0
+            currency_symbol: '$',
+            decimals: 2
           },
           picture:
             'http://mla-s2-p.mlstatic.com/873403-MLA28262651632_092018-I.jpg',
-          condition: 'not_specified',
-          free_shipping: false
+          condition: 'No especificado',
+          free_shipping: false,
+          seller_city: 'hurlingham'
         },
         {
           id: 'MLA719351372',
           title: 'Denuncia Nacimiento Alianza Canina Argentina Internacional',
           price: {
-            price: 450,
+            amount: 450,
             currency: 'ARS',
-            decimals: 0
+            currency_symbol: '$',
+            decimals: 2
           },
           picture:
             'http://mla-s1-p.mlstatic.com/716359-MLA31020295798_062019-I.jpg',
-          condition: 'new',
-          free_shipping: false
+          condition: 'Nuevo',
+          free_shipping: false,
+          seller_city: 'Banfield'
         }
       ]
-    }
+    },
+    withCurrencyInfo: [
+      {
+        id: 'ARS',
+        symbol: '$',
+        description: 'Peso argentino',
+        decimal_places: 2
+      },
+      {
+        id: 'ARS',
+        symbol: '$',
+        description: 'Peso argentino',
+        decimal_places: 2
+      },
+      {
+        id: 'ARS',
+        symbol: '$',
+        description: 'Peso argentino',
+        decimal_places: 2
+      },
+      {
+        id: 'ARS',
+        symbol: '$',
+        description: 'Peso argentino',
+        decimal_places: 2
+      }
+    ]
   }
 ];
 

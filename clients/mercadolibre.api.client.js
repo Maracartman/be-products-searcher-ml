@@ -54,9 +54,17 @@ const getDescriptionById = async id => {
   return plain_text;
 };
 
+const getCurrencyInformation = async currency_id => {
+  const {
+    data: { symbol, decimal_places }
+  } = await axios.get(`https://api.mercadolibre.com/currencies/${currency_id}`);
+  return { symbol, decimal_places };
+};
+
 module.exports = {
   getByQuery: getByQuery,
   getById: getById,
   getCategoryTreeInformation: getCategoryTreeInformation,
-  getDescriptionById: getDescriptionById
+  getDescriptionById: getDescriptionById,
+  getCurrencyInformation: getCurrencyInformation
 };
