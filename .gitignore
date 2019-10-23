@@ -62,3 +62,9 @@ typings/
 
 #vscode
 .vscode/*
+
+#cache
+package-lock.json
+
+#loggin-files
+*.log
